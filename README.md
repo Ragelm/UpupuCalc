@@ -30,6 +30,9 @@
 - Сохранение, импорт/экспорт настроек программы
 - Пояснения к ко всему функционалу программы, советы
 
+## В планах
+- Добавить поддержку расчёта выбивания "Абсолютного" скина, как только появится первый баннер с ним
+
 ## Как запустить
 
 1. Скачайте `UpupuCalc.exe` со страницы [Releases](https://github.com/Ragelm/UpupuCalc/releases).
@@ -114,6 +117,9 @@ go build -mod=vendor -trimpath -ldflags "-s -w -H windowsgui" -o UpupuCalc.exe .
 - Support for RU and Global server pricing
 - Save, import and export your settings
 - Explanations and tips for every feature
+
+## Planned
+- Add drop-rate calculation for the "Ultimate" skin once the first banner featuring it is released
 
 ## How to run
 
