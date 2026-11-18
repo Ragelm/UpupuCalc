@@ -137,7 +137,7 @@ On older Windows versions you can run the program in your browser instead:
 
 The file is not digitally signed, so Windows SmartScreen may show a warning on first launch: "More info" → "Run anyway".
 
-## Footprint
+## System footprint
 
 - Settings are stored in a single `UpupuCalc.settings.json` file next to the exe. Delete it together with the program and nothing is left behind.
 - The program installs nothing and doesn't write to the registry.
