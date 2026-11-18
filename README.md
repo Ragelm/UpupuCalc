@@ -91,7 +91,6 @@ go build -mod=vendor -trimpath -ldflags "-s -w -H windowsgui" -o UpupuCalc.exe .
 
 Это разрешение не распространяется на чужие материалы в репозитории: иконки валют и снимки экрана принадлежат авторам Shinri Trial, шрифт Montserrat распространяется по лицензии [SIL Open Font License](ui/font-license.txt).
 
----
 
 <a id="english"></a>
 # English
