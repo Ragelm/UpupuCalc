@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UpupuCalc</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div id="app">
+  <aside class="side">
+    <div class="brand">
+      <svg aria-hidden="true" viewBox="0 0 256 256"><circle cx="128" cy="128" r="116" fill="#0b0a08" stroke="#f2c65c" stroke-width="22"/><path d="M86 66V136A42 42 0 0 0 170 136V66" fill="none" stroke="#f2c65c" stroke-width="40"/></svg>
+      <span id="brand"></span>
+    </div>
+    <button class="stash" data-a="nav" data-v="eco">
+      <span class="stash-n"><img class="ic" src="img/letters.png" alt=""><span id="stash-n">0</span></span>
+      <span class="stash-l" id="stash-l"></span>
+      <span class="stash-s" id="stash-s"></span>
+    </button>
+    <nav id="nav"></nav>
+    <div class="side-foot">
+      <div id="save-state" class="save-state"></div>
+      <div class="seg lang" id="lang" role="group" aria-label="Server"></div>
+      <p id="disc"></p>
+      <div class="about-row"><button class="link" id="about-btn" data-a="about"></button><span class="by" id="by"></span></div>
+    </div>
+  </aside>
+  <main id="main"></main>
+</div>
+<div id="toast" class="toast" hidden></div>
+<div id="modal" class="modal" hidden></div>
+<div id="tipbox" class="tipbox" role="tooltip" hidden></div>
+<script src="links.js"></script>
+<script src="i18n.js"></script>
+<script src="core.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
