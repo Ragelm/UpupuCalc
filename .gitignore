@@ -32,3 +32,17 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+
+# Сборка
+build/bin/
+*.exe
+
+# JavaScript
+node_modules/
+frontend/dist/
+
+# Системный мусор
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
